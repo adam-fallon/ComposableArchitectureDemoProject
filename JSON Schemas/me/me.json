@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "rootItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "isDir": {
+          "type": "boolean"
+        },
+        "modificationDate": {
+          "type": "string",
+          "description": "ISO 8601 format"
+        },
+        "size": {
+          "type": "number"
+        },
+        "contentType": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "name", "isDir", "modificationDate"],
+      "description": "The entry point of the items hierarchy"
+    }
+  },
+  "required": ["firstName", "lastName", "rootItem"],
+  "$schema": "http://json-schema.org/draft-04/schema#"
+}
