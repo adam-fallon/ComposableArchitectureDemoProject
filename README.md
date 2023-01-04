@@ -1,6 +1,6 @@
 # ComposableArchitectureDemoProject
 
-This is a demo project showcasing what a real app using [TCA](https://github.com/pointfreeco/swift-composable-architecture) from PointFree could look like;
+This is a demo project showcasing what a real(ish) app using [TCA](https://github.com/pointfreeco/swift-composable-architecture) from PointFree could look like;
 
 ![TCA](https://github.com/pitt500/OnlineStoreTCA/blob/main/Images/TCA_Architecture.png)
 
